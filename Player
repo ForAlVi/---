@@ -11,7 +11,7 @@ public class Player {
                 new MachineGun(),
                 new RPG(),
                 new Slingshot(),
-                new WaterGun()
+                new ShotGun()
         };
     }
 
@@ -64,7 +64,7 @@ public class Player {
         }
     }
 
-    private class WaterGun extends Weapon {
+    private class ShotGun extends Weapon {
         public void shot() {
             System.out.println("Жах!");
         }
